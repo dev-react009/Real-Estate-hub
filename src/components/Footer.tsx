@@ -16,7 +16,7 @@ export default function Footer() {
         <div>
           <h2 className="text-xl font-bold mb-4">Relasto</h2>
           <p className="text-sm text-gray-400 mb-4">
-            Your trusted partner in finding the perfect home. We've been helping families and investors achieve their real estate goals for over 15 years.
+            Your trusted partner in finding the perfect home. We&apos;ve been helping families and investors achieve their real estate goals for over 15 years.
           </p>
           <div className="flex gap-3">
             {socialIcons.map((platform, i) => (

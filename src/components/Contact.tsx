@@ -9,7 +9,7 @@ export default function ContactSection() {
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Get In Touch</h2>
         <p className="mt-2 text-gray-600 max-w-2xl mx-auto">
-          Ready to find your dream home or have questions about our services? We're here to help you every step of the way.
+          Ready to find your dream home or have questions about our services? We&apos;re here to help you every step of the way.
         </p>
       </div>
 

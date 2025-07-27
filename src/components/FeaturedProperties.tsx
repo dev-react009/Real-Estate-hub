@@ -79,13 +79,13 @@ const properties = [
 ];
 export default function FeaturedProperties() {
   return (
-    <section id="Properties" className="min-h-screen bg-[#fafafa] max-w-7xl mx-auto px-4 md:px-8 py-225 md:py-16 mt-25">
+    <section id="Properties" className="min-h-screen bg-[#fafafa] max-w-7xl mx-auto px-4 md:px-8 py-16 mt-245 md:py-16 md:mt-25 ">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
           Our Featured Properties
         </h2>
         <p className="text-gray-500 mt-2 text-sm md:text-base">
-          Let's find a home that's perfect for you
+          Let&apos;s find a home that&apos; perfect for you
         </p>
       </div>
 

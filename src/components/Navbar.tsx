@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { X, Menu } from "lucide-react";
+import { X} from "lucide-react";
 import smoothScrollTo from "@/lib/smoothScroll";
 
 
@@ -67,10 +67,10 @@ export default function Navbar() {
         {/* Mobile menu icon (optional, for future mobile nav) */}
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="p-2 rounded-md bg-gray-100 hover:bg-gray-200 transition">
-            <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" strokeWidth="2"
+          { isOpen?  <X className="w-6 h-6 text-gray-700" />:  <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" strokeWidth="2"
               viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
+            </svg>}
           </button>
         </div>
       </div>

@@ -23,7 +23,7 @@ export default function Hero() {
           {/* Subtext */}
           <p className="text-gray-600 text-lg">
             We are a real estate agency that will help you find the best
-            residence you dream of, let's discuss for your dream house?
+            residence you dream of, let&apos;s discuss for your dream house?
           </p>
 
           {/* CTA Button */}

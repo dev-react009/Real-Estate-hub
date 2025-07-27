@@ -1,10 +1,14 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section className="py-20 px-4 md:px-16 bg-[#fafafa]">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
         {/* Left Image Block */}
         <div className="relative w-full">
-          <img
+          <Image
+            width={600}
+            height={400}
             src="/images/help.webp"
             alt="Team Discussion"
             className="rounded-3xl w-full h-auto object-cover"
@@ -14,17 +18,23 @@ export default function About() {
             <p className="text-2xl font-bold text-black leading-none">12+</p>
             <p className="text-xs text-gray-600">Years Experience</p>
             <div className="mt-2 flex -space-x-2">
-              <img
+              <Image
+                width={600}
+                height={400}
                 src="/images/user-1.jpeg"
                 alt="User 1"
                 className="w-6 h-6 rounded-full border-2 border-white"
               />
-              <img
+              <Image
+                width={600}
+                height={400}
                 src="/images/user-2.jpeg"
                 alt="User 2"
                 className="w-6 h-6 rounded-full border-2 border-white"
               />
-              <img
+              <Image
+                width={600}
+                height={400}
                 src="/images/user-3.jpeg"
                 alt="User 3"
                 className="w-6 h-6 rounded-full border-2 border-white"

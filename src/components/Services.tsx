@@ -1,7 +1,7 @@
 'use client';
 
-import { LucideIcon, Search, Home, FileText, TrendingUp, Key, ShieldCheck } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import {Search, Home, FileText, TrendingUp, Key, ShieldCheck } from 'lucide-react';
+
 
 const services = [
   {
